@@ -1,0 +1,28 @@
+
+Second part of the project.
+
+Requierements:
+
+.csv database with HPCP extracted from audio sequences recordings
+.csv database with tempo extracted with QM-tempobeattracker plug-in
+
+Filename for HPCP: "author_standard_version_vamp_vamp-hpcp-mtg_MTG-HPCP_HPCP.csv"
+Filename for Tempo: "author_standard_version_vamp_qm-vamp-plugins_qm-tempotracker_beats.csv"
+
+Standard names codes:
+
+attya 	(All the things you are)
+al 	(Autumn leaves)
+blues 	(Blues)
+rc 	(Rhythm Changes)
+rm 	(Round midnight)
+solar 	(Solar)
+stella 	(Stella by starlight)
+
+
+example: 
+"peterson_stella_1_vamp_vamp-hpcp-mtg_MTG-HPCP_HPCP.csv"
+"peterson_stella_1_vamp_qm-vamp-plugins_qm-tempotracker_beats.csv"
+
+
+Computes chord sequence detection and returns the results and evaluation
