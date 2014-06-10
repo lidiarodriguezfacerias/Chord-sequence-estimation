@@ -1,8 +1,8 @@
-function [ original_standard, tempo] = set_original_features2(filename, tema )
+function [ original_standard, tempo] = set_original_features(filename, tema )
 
-%run('/Users/apple/Documents/UPF/TFG/Codis/diccionari.m')
-addpath('/Users/apple/Documents/UPF/TFG/Codis/Chord sequence standard estimation/ktempo')
-list = dir('ktempo/*.csv');
+%run('/Users/apple/Chord-sequence-estimation/diccionari.m')
+addpath('/Users/apple/Chord-sequence-estimation/tempo2')
+list = dir('tempo2/*.csv');
 
 
 

@@ -1,5 +1,5 @@
 
-function [detected_chord]=chord_estimation2(hpcp,chord,root,tema, ind_beat)
+function [detected_chord]=chord_estimation(hpcp,chord,root,tema, ind_beat)
 
 %Output: detected chord: struct with fields:
     %root, rootname, type,typename

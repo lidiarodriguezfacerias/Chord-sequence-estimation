@@ -8,7 +8,7 @@ detected_sequence=struct;
 original_chord=struct;
 
 csv = csvread(filename);
-[original_standard,tempo] = set_original_features2(filename,tema);
+[original_standard,tempo] = set_original_features(filename,tema);
 
 fs = 44100;
 
@@ -40,7 +40,7 @@ for i = 1: (length(w_starting_beat))
     hpcp_aux = hpcpread(aux_csv);
     
     %Compute chord detection
-    [detected_chord_aux]=chord_estimation2(hpcp_aux,chord,root,tema,i);
+    [detected_chord_aux]=chord_estimation(hpcp_aux,chord,root,tema,i);
     
     % Set the detected features
     detected_sequence(i).root =     detected_chord_aux.root;

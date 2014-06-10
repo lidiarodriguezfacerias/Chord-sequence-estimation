@@ -1,9 +1,9 @@
-% SCRIPT 2
+% SCRIPT
 
 close all;
-run('/Users/apple/Documents/UPF/TFG/Codis/Chord sequence standard estimation/diccionari.m')
-addpath('/Users/apple/Documents/UPF/TFG/Codis/Chord sequence standard estimation/khpcp')
-list = dir('khpcp/*.csv');
+run('/Users/apple/Chord-sequence-estimation/diccionari.m')
+addpath('/Users/apple/Chord-sequence-estimation/hpcp2')
+list = dir('hpcp2/*.csv');
 
 detected_sequence = struct; 
 original_standard = [];
@@ -19,5 +19,7 @@ for i = 1:length(list)
     fprintf('\n');
         
 end
+
+run('/Users/apple/Chord-sequence-estimation/evaluation.m')
 
 
